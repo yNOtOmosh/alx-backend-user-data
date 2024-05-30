@@ -4,6 +4,7 @@ A module for hashing and validating passwords using the bcrypt algorithm.
 """
 import bcrypt
 
+
 def hash_password(password: str) -> bytes:
     """
     Hashes a password using the bcrypt algorithm.
