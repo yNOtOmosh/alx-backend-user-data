@@ -31,7 +31,8 @@ class BasicAuth(Auth):
             self,
             base64_authorization_header: str,
             ) -> str:
-        """Decodes a base64-encoded authorization header."""
+        """8. Basic - Base64 decode
+        Decodes a base64-encoded authorization header."""
         if type(base64_authorization_header) == str:
             try:
                 res = base64.b64decode(
