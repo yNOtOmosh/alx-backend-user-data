@@ -10,7 +10,10 @@ from models.user import User
 
 
 class BasicAuth(Auth):
-    """Basic authentication class."""
+    """7. Basic - Base64 part
+    Basic authentication class.
+    """
+
     def extract_base64_authorization_header(
             self,
             authorization_header: str) -> str:
