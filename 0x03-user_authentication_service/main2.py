@@ -27,4 +27,8 @@ try:
     find_user = my_db.find_user_by(no_email="test@test.com")
     print(find_user.id)
 except InvalidRequestError:
+<<<<<<< HEAD
     print("Invalid")
+=======
+    print("Invalid")
+>>>>>>> 73bb6ff8a4c1679c6001f9b5bb27dbaf54c2a3fa
